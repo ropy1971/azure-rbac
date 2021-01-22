@@ -1,0 +1,25 @@
+{
+    "Name": "Support Operator",
+    "Id": "",
+    "IsCustom": true,
+    "Description": "Give the ability to use the Azure Support. ",
+    "Actions": [
+        "Microsoft.Support/register/action",
+        "Microsoft.Support/checkNameAvailability/action",
+        "Microsoft.Support/operationresults/read",
+        "Microsoft.Support/operations/read",
+        "Microsoft.Support/operationsstatus/read",
+        "Microsoft.Support/services/read",
+        "Microsoft.Support/services/problemClassifications/read",
+        "Microsoft.Support/supportTickets/read",
+        "Microsoft.Support/supportTickets/write",
+        "Microsoft.Support/supportTickets/communications/read",
+        "Microsoft.Support/supportTickets/communications/write"
+    ],
+    "NotActions": [],
+    "DataActions": [],
+    "NotDataActions": [],
+    "AssignableScopes": [
+        ""
+    ]
+}
